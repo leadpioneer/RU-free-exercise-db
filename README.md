@@ -1,19 +1,24 @@
 # RU-free-exercise-db 🇷🇺💪
 
 [![CI](https://github.com/leadpioneer/RU-free-exercise-db/actions/workflows/ci.yaml/badge.svg)](https://github.com/leadpioneer/RU-free-exercise-db/actions/workflows/ci.yaml)
+[![Site](https://img.shields.io/badge/сайт-онлайн-blue.svg)](https://leadpioneer.github.io/RU-free-exercise-db/)
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
 Русифицированный форк открытой базы упражнений
 [yuhonas/free-exercise-db](https://github.com/yuhonas/free-exercise-db):
-**876 упражнений** с русскими названиями и ~3800 поисковыми алиасами —
-готово для импорта в SparkyFitness, Telegram-ботов и любых своих приложений.
+**876 упражнений** с русскими названиями, инструкциями и ~3800 поисковыми
+алиасами — готово для импорта в SparkyFitness, Telegram-ботов и любых своих
+приложений.
 
 Русификация — это **надстройка**: upstream-данные в `exercises/` не изменяются,
 поэтому обновления из оригинального репозитория подтягиваются без конфликтов.
 
 ## Быстрый старт
 
-Скачайте один файл и используйте:
+**Каталог в браузере** (русские названия, инструкции, поиск):
+**[leadpioneer.github.io/RU-free-exercise-db](https://leadpioneer.github.io/RU-free-exercise-db/)**
+
+Для своего приложения скачайте один файл:
 
 ```
 https://raw.githubusercontent.com/leadpioneer/RU-free-exercise-db/main/dist/exercises.ru.json
