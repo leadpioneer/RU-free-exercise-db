@@ -9,5 +9,11 @@
   ],
   "review_status": "machine_draft",
   "reviewed_at": null,
-  "reviewed_by": null
+  "reviewed_by": null,
+  "instructions_ru": [
+    "Встаньте на пол на четвереньки.",
+    "Втяните живот и округлите позвоночник, поясницу, плечи и шею, опустив голову.",
+    "Задержитесь на 15 секунд."
+  ],
+  "instructions_status": "machine"
 }

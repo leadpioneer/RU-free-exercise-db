@@ -27,6 +27,11 @@
       "items": { "type": "string" },
       "description": "Русский перевод инструкций, шаг 1:1 с upstream instructions"
     },
+    "instructions_status": {
+      "type": "string",
+      "enum": ["machine", "reviewed"],
+      "description": "Статус перевода инструкций: machine — машинный перевод, reviewed — вычитан человеком"
+    },
     "review_status": {
       "type": "string",
       "enum": [

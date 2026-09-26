@@ -10,5 +10,11 @@
   ],
   "review_status": "machine_draft",
   "reviewed_at": null,
-  "reviewed_by": null
+  "reviewed_by": null,
+  "instructions_ru": [
+    "Встаньте прямо.",
+    "Положите обе руки на поясницу так, чтобы пальцы были направлены вниз, а локти разведены в стороны.",
+    "Затем осторожно отведите локти назад, стараясь соприкоснуться ими друг с другом."
+  ],
+  "instructions_status": "machine"
 }

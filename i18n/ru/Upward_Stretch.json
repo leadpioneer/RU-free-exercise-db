@@ -9,5 +9,10 @@
   ],
   "review_status": "machine_draft",
   "reviewed_at": null,
-  "reviewed_by": null
+  "reviewed_by": null,
+  "instructions_ru": [
+    "Вытяните обе руки прямо над головой, соприкасаясь ладонями.",
+    "Медленно поднимите руки вверх и назад, держа спину прямой."
+  ],
+  "instructions_status": "machine"
 }

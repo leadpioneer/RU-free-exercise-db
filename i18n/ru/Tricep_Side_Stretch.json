@@ -9,5 +9,9 @@
   ],
   "review_status": "machine_draft",
   "reviewed_at": null,
-  "reviewed_by": null
+  "reviewed_by": null,
+  "instructions_ru": [
+    "Проведите правой рукой вдоль тела и через левое плечо, придерживая локоть левой рукой, пока не почувствуете растяжение в трицепсе. Затем повторите упражнение для другой руки."
+  ],
+  "instructions_status": "machine"
 }

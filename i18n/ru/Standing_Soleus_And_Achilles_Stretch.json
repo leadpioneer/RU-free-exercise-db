@@ -10,5 +10,10 @@
   ],
   "review_status": "machine_draft",
   "reviewed_at": null,
-  "reviewed_by": null
+  "reviewed_by": null,
+  "instructions_ru": [
+    "Встаньте так, чтобы ноги были на расстоянии бедер друг от друга, одна ступня была немного впереди другой.",
+    "Согните оба колена, не отрывая пятки от пола. Поменяйтесь сторонами."
+  ],
+  "instructions_status": "machine"
 }

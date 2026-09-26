@@ -9,5 +9,9 @@
   ],
   "review_status": "machine_draft",
   "reviewed_at": null,
-  "reviewed_by": null
+  "reviewed_by": null,
+  "instructions_ru": [
+    "Заведите руку за голову, возьмитесь за локоть и слегка потяните. Задержитесь на 10-20 секунд, затем поменяйтесь сторонами."
+  ],
+  "instructions_status": "machine"
 }

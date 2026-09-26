@@ -8,5 +8,11 @@
   ],
   "review_status": "machine_draft",
   "reviewed_at": null,
-  "reviewed_by": null
+  "reviewed_by": null,
+  "instructions_ru": [
+    "Положите перед собой доску для балансировки.",
+    "Встаньте на него и постарайтесь сохранить равновесие.",
+    "Удерживайте равновесие столько, сколько хотите."
+  ],
+  "instructions_status": "machine"
 }

@@ -10,5 +10,10 @@
   ],
   "review_status": "machine_draft",
   "reviewed_at": null,
-  "reviewed_by": null
+  "reviewed_by": null,
+  "instructions_ru": [
+    "Заведите руки за спину ладонями вместе, выпрямите их, а затем поверните так, чтобы ладони были обращены вниз.",
+    "Поднимите руки вверх и удерживайте их, пока не почувствуете растяжение в бицепсах."
+  ],
+  "instructions_status": "machine"
 }

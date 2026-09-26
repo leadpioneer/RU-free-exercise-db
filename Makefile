@@ -1,4 +1,4 @@
-.PHONY: lint check_dupes check_missing_images install lint-ru validate-ru draft-ru extract-instructions apply-instructions
+.PHONY: lint check_dupes check_missing_images install lint-ru validate-ru draft-ru extract-instructions apply-instructions mt-translate
 
 sources := $(sort $(wildcard ./exercises/**.json))
 
@@ -61,3 +61,7 @@ extract-instructions:
 apply-instructions:
 		# влить переводы work/instructions/ru-batch-*.json в сайдкары
 		node scripts/apply-instructions.mjs
+
+mt-translate:
+		# машинный перевод батчей через Yandex Translate (нужен YANDEX_API_KEY)
+		node scripts/mt-translate.mjs --all

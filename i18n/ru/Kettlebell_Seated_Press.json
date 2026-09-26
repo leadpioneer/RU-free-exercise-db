@@ -11,5 +11,11 @@
   ],
   "review_status": "machine_draft",
   "reviewed_at": null,
-  "reviewed_by": null
+  "reviewed_by": null,
+  "instructions_ru": [
+    "Сядьте на пол и удобно расставьте ноги.",
+    "Поднесите одну гирю к плечу.",
+    "Поднимите гирю вверх и разведите в стороны, пока она не зафиксируется над головой. Вернитесь в исходное положение."
+  ],
+  "instructions_status": "machine"
 }

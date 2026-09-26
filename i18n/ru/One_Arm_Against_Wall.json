@@ -10,5 +10,10 @@
   ],
   "review_status": "machine_draft",
   "reviewed_at": null,
-  "reviewed_by": null
+  "reviewed_by": null,
+  "instructions_ru": [
+    "Стоя, прислоните согнутую руку к стене или дверному проему.",
+    "Медленно наклоняйтесь к руке, пока не почувствуете растяжение в широчайших мышцах."
+  ],
+  "instructions_status": "machine"
 }

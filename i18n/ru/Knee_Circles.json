@@ -9,5 +9,11 @@
   ],
   "review_status": "machine_draft",
   "reviewed_at": null,
-  "reviewed_by": null
+  "reviewed_by": null,
+  "instructions_ru": [
+    "Встаньте, ноги вместе, руки на талии.",
+    "Теперь двигайте коленями круговыми движениями, дыша как обычно.",
+    "Повторите рекомендуемое количество повторений."
+  ],
+  "instructions_status": "machine"
 }

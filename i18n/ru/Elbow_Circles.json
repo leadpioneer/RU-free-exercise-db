@@ -8,5 +8,11 @@
   ],
   "review_status": "machine_draft",
   "reviewed_at": null,
-  "reviewed_by": null
+  "reviewed_by": null,
+  "instructions_ru": [
+    "Сядьте или встаньте, слегка расставив ноги.",
+    "Положите руки на плечи так, чтобы локти были на уровне плеч и направлены наружу.",
+    "Медленно описывайте локтями круг. В начале круга сделайте выдох, а в конце — вдох."
+  ],
+  "instructions_status": "machine"
 }

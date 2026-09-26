@@ -21,11 +21,22 @@ const distFile = path.join(root, 'dist', 'exercises.json');
 const ruDir = path.join(root, 'i18n', 'ru');
 const workDir = path.join(root, 'work', 'instructions');
 
-const args = process.argv.slice(2).filter((a) => !a.startsWith('-'));
+const args = process.argv.slice(2);
+const statusArg = args.indexOf('--status');
+const instructionsStatus = statusArg > -1 ? args[statusArg + 1] : null;
+if (instructionsStatus && !['machine', 'reviewed'].includes(instructionsStatus)) {
+  console.error(`--status: допустимые значения machine | reviewed, получено "${instructionsStatus}"`);
+  process.exit(1);
+}
+const positional = [];
+for (let i = 0; i < args.length; i++) {
+  if (args[i] === '--status') { i++; continue; }
+  if (!args[i].startsWith('-')) positional.push(args[i]);
+}
 const exercises = new Map(JSON.parse(fs.readFileSync(distFile, 'utf8')).map((e) => [e.id, e]));
 
 let files = [];
-if (args.length) files = args.map((a) => path.resolve(a));
+if (positional.length) files = positional.map((a) => path.resolve(a));
 else if (fs.existsSync(workDir))
   files = fs
     .readdirSync(workDir)
@@ -96,6 +107,7 @@ for (const ruFile of files) {
     const sidecarPath = path.join(ruDir, `${id}.json`);
     const rec = JSON.parse(fs.readFileSync(sidecarPath, 'utf8'));
     rec.instructions_ru = full;
+    if (instructionsStatus) rec.instructions_status = instructionsStatus;
     fs.writeFileSync(sidecarPath, JSON.stringify(rec, null, 2) + '\n', 'utf8');
     appliedExercises++;
     appliedSteps += full.length;

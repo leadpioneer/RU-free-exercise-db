@@ -9,5 +9,9 @@
   ],
   "review_status": "machine_draft",
   "reviewed_at": null,
-  "reviewed_by": null
+  "reviewed_by": null,
+  "instructions_ru": [
+    "Сцепите пальцы так, чтобы большие пальцы были направлены вниз, обхватите себя за плечи и вытяните руки вперед."
+  ],
+  "instructions_status": "machine"
 }

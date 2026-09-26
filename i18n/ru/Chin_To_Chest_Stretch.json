@@ -8,5 +8,10 @@
   ],
   "review_status": "machine_draft",
   "reviewed_at": null,
-  "reviewed_by": null
+  "reviewed_by": null,
+  "instructions_ru": [
+    "Примите сидячее положение на полу.",
+    "Положите обе руки на затылок, сцепив пальцы, большие пальцы направлены вниз, а локти направлены прямо вперед. Медленно опустите голову на грудь. Задержитесь на 20-30 секунд."
+  ],
+  "instructions_status": "machine"
 }

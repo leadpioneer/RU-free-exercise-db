@@ -12,5 +12,9 @@
   ],
   "review_status": "machine_draft",
   "reviewed_at": null,
-  "reviewed_by": null
+  "reviewed_by": null,
+  "instructions_ru": [
+    "Стоя лицом к высокому блоку с прикрепленной веревкой или двумя ручками, подтяните вес прямо к лицу, при этом разведите руки в стороны. Держите предплечья параллельно земле."
+  ],
+  "instructions_status": "machine"
 }

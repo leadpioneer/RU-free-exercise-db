@@ -9,5 +9,9 @@
   ],
   "review_status": "machine_draft",
   "reviewed_at": null,
-  "reviewed_by": null
+  "reviewed_by": null,
+  "instructions_ru": [
+    "Вытяните левую руку вдоль тела и держите ее прямо."
+  ],
+  "instructions_status": "machine"
 }

@@ -9,5 +9,11 @@
   ],
   "review_status": "machine_draft",
   "reviewed_at": null,
-  "reviewed_by": null
+  "reviewed_by": null,
+  "instructions_ru": [
+    "Сядьте прямо на стул.",
+    "Наклонитесь набок, закинув руку за голову. Вы можете держаться за спинку стула свободной рукой.",
+    "Задержитесь на 10 секунд и повторите упражнение для другой стороны."
+  ],
+  "instructions_status": "machine"
 }

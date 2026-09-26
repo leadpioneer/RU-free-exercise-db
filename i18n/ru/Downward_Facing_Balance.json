@@ -9,5 +9,10 @@
   ],
   "review_status": "machine_draft",
   "reviewed_at": null,
-  "reviewed_by": null
+  "reviewed_by": null,
+  "instructions_ru": [
+    "Лягте лицом вниз на гимнастический мяч.",
+    "Лежа животом на мяче, проведите руками вперед по полу и поднимите ноги, выпрямляя локти и колени."
+  ],
+  "instructions_status": "machine"
 }

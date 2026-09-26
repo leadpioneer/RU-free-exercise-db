@@ -9,5 +9,10 @@
   ],
   "review_status": "machine_draft",
   "reviewed_at": null,
-  "reviewed_by": null
+  "reviewed_by": null,
+  "instructions_ru": [
+    "Встаньте так, чтобы ноги были на ширине плеч, а руки — на бедрах.",
+    "Сгибайтесь в талии, пока не почувствуете растяжение. Задержитесь на 10-15 секунд, затем повернитесь в другую сторону."
+  ],
+  "instructions_status": "machine"
 }

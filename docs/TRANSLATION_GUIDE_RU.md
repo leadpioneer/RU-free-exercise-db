@@ -113,3 +113,31 @@ make dist/exercises.ru.json   # пересобрать dist
 Чтобы перегенерировать алиасы после правки правил: `make draft-ru` не трогает
 существующие файлы — используйте
 `node scripts/draft-ru-names.mjs --force && make dist/exercises.ru.json`.
+
+## Машинный перевод инструкций (Yandex Translate API)
+
+Инструкции (`instructions_ru`) переведены через Yandex Cloud Translate API v2
+с пост-редактированием правилами. У таких записей в сайдкаре стоит
+`"instructions_status": "machine"`; вычитанные вручную помечаются `reviewed`.
+
+Конвейер:
+
+```
+make extract-instructions     # батчи work/instructions/batch-NN.json (~30 упр.)
+make mt-translate             # YANDEX_API_KEY=... — перевод всех батчей в ru-batch-NN.json
+node scripts/apply-instructions.mjs --status machine   # вливание в сайдкары
+make dist/exercises.ru.json && make validate-ru
+```
+
+- Кэш `work/mt-cache.json` (keyOf(EN) → RU): одинаковые фразы переводятся
+  один раз, перезапуск после сбоя бесплатный. Фразы из общего словаря
+  (`scripts/lib/instructions-common.mjs`) в API не уходят.
+- Правила пост-редакта: `scripts/lib/mt-postedit.mjs` («Tip:» → «Совет:»,
+  кавычки «», тире, футы → метры, терминология). После изменения правил
+  прогоните `node scripts/mt-refresh.mjs` — обновит кэш, ретранслирует
+  мусор и пересоберёт machine-сайдкары.
+- Оценка стоимости: ~500 ₽ за 1 млн символов; полный прогон базы (~440 тыс.
+  символов) обошёлся примерно в 220 ₽.
+- Вычитка: проверьте шаг, поменяйте статус на `"reviewed"` и уберите
+  пометку, если всё верно. Валидатор считает шаги 1:1 и предупреждает
+  о латинских вставках в русских шагах.

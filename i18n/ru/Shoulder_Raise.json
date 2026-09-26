@@ -9,5 +9,9 @@
   ],
   "review_status": "machine_draft",
   "reviewed_at": null,
-  "reviewed_by": null
+  "reviewed_by": null,
+  "instructions_ru": [
+    "Расслабьте руки по бокам и поднимите плечи вверх к ушам, затем опустите их обратно."
+  ],
+  "instructions_status": "machine"
 }
