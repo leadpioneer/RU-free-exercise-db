@@ -124,6 +124,20 @@ docs/TRANSLATION_GUIDE_RU.md  # процесс перевода, ревью и �
 site/                         # browsable frontend (upstream, Vue.js)
 ```
 
+## Сайт (GitHub Pages)
+
+Browsable-фронтенд из upstream (`site/`, Vue + Vite) работает на русских данных
+(`dist/exercises.ru.json`): русские названия, инструкции и двуязычный поиск
+(русский + английский). Деплой автоматический:
+
+- воркфлоу [`.github/workflows/pages.yaml`](.github/workflows/pages.yaml)
+  собирает сайт при изменениях в `site/**` или `dist/exercises.ru.json`
+  (или вручную — кнопка Run workflow);
+- разовая настройка: **Settings → Pages → Build and deployment →
+  Source: «GitHub Actions»**;
+- адрес: `https://<owner>.github.io/RU-free-exercise-db/`
+  (base-path задаётся через `VITE_BASE_DIR`).
+
 ## Сборка и проверка
 
 Нужны [Node.js ≥ 18](https://nodejs.org), `pip install check-jsonschema`

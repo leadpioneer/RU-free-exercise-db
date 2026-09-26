@@ -1,5 +1,5 @@
 <script>
-import exercises from '../../../dist/exercises.json'
+import exercises from '../../../dist/exercises.ru.json'
 import ExerciseInstructions from './ExerciseInstructions.vue'
 import PhotoGallery from './PhotoGallery.vue'
 
@@ -111,7 +111,9 @@ export default {
     },
     query(newValue, _) {
       const options = {
-        keys: ['id', 'name']
+        keys: ['name', 'name_ru', 'aliases_ru'],
+        ignoreLocation: true,
+        threshold: 0.4
       }
 
       this.currentPage = 0
@@ -119,7 +121,7 @@ export default {
 
       if (this.query.length > 1) {
         const fuse = new Fuse(this.exercises, options)
-        this.searchResults = fuse.search({ name: newValue }).map((r) => r.item)
+        this.searchResults = fuse.search(newValue).map((r) => r.item)
       } else {
         this.searchResults = this.exercises
       }
@@ -161,7 +163,7 @@ export default {
             autofocus="autofocus"
             id="search"
             class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-            placeholder="Search Exercises, Instructions"
+            placeholder="Поиск упражнений и инструкций"
             required
           />
         </div>
@@ -214,9 +216,9 @@ export default {
           />
         </a>
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-          {{ exercise.name }}
+          {{ exercise.name_ru || exercise.name }}
         </h5>
-        <ExerciseInstructions :text="exercise.instructions" />
+        <ExerciseInstructions :text="exercise.instructions_ru || exercise.instructions" />
       </div>
     </div>
   </div>
