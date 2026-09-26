@@ -64,6 +64,7 @@ for (const file of files) {
     name_ru: ru.name,
     aliases_ru: [...aliases.values()],
     review_status: ru.review_status,
+    ...(Array.isArray(ru.instructions_ru) ? { instructions_ru: ru.instructions_ru } : {}),
   });
 }
 

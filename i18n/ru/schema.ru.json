@@ -22,6 +22,11 @@
       "items": { "type": "string" },
       "description": "Русские алиасы и разговорные синонимы для поиска"
     },
+    "instructions_ru": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Русский перевод инструкций, шаг 1:1 с upstream instructions"
+    },
     "review_status": {
       "type": "string",
       "enum": [

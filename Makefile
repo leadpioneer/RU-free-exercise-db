@@ -1,4 +1,4 @@
-.PHONY: lint check_dupes check_missing_images install lint-ru validate-ru draft-ru
+.PHONY: lint check_dupes check_missing_images install lint-ru validate-ru draft-ru extract-instructions apply-instructions
 
 sources := $(sort $(wildcard ./exercises/**.json))
 
@@ -53,3 +53,11 @@ draft-ru:
 dist/exercises.ru.json: $(sources) $(RU_SOURCES) scripts/generate-ru-dist.mjs
 		# merge upstream exercises with RU localization into one file
 		node scripts/generate-ru-dist.mjs
+
+extract-instructions:
+		# нарезать непереведённые инструкции на батчи work/instructions/batch-NN.json
+		node scripts/extract-instructions.mjs
+
+apply-instructions:
+		# влить переводы work/instructions/ru-batch-*.json в сайдкары
+		node scripts/apply-instructions.mjs

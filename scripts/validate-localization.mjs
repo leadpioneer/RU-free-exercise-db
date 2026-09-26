@@ -16,14 +16,19 @@ const errors = [];
 const warnings = [];
 const fail = (msg) => errors.push(msg);
 const warn = (msg) => warnings.push(msg);
+let instructionsCovered = 0;
+let instructionsMissing = 0;
+let latinSteps = 0;
 
 // 1. Загружаем upstream-упражнения
 const upstreamFiles = fs.readdirSync(exercisesDir).filter((f) => f.endsWith('.json')).sort();
 const upstreamIds = new Map(); // id -> имя файла
+const upstreamById = new Map(); // id -> упражнение
 for (const f of upstreamFiles) {
   const ex = JSON.parse(fs.readFileSync(path.join(exercisesDir, f), 'utf8'));
   if (upstreamIds.has(ex.id)) fail(`Дубликат upstream id: ${ex.id}`);
   upstreamIds.set(ex.id, f);
+  upstreamById.set(ex.id, ex);
 }
 
 // 2. Загружаем локализацию
@@ -55,6 +60,24 @@ for (const f of ruFiles) {
   }
   if (!(rec.aliases || []).some((a) => /[а-яё]/i.test(a))) {
     warn(`${f}: нет ни одного русского алиаса`);
+  }
+
+  // инструкции
+  if (Array.isArray(rec.instructions_ru)) {
+    const ex = upstreamById.get(rec.id);
+    if (ex && rec.instructions_ru.length !== ex.instructions.length) {
+      fail(
+        `${f}: instructions_ru шагов ${rec.instructions_ru.length}, а в upstream ${ex.instructions.length}`
+      );
+    } else {
+      instructionsCovered++;
+      for (const s of rec.instructions_ru) {
+        const lat = leftoverLatin(s);
+        if (lat) latinSteps++;
+      }
+    }
+  } else if (rec.review_status !== 'do_not_translate') {
+    instructionsMissing++;
   }
 
   const nameKey = normalizeAlias(rec.name);
@@ -109,6 +132,11 @@ const totalAliases = [...aliasOwner.values()].reduce((n, ids) => n + ids.length,
 console.log(
   `Уникальных алиасов:   ${aliasOwner.size} (в среднем ${(totalAliases / Math.max(ruIds.size, 1)).toFixed(1)} на упражнение)`
 );
+console.log(
+  `Инструкции переведены: ${instructionsCovered}/${upstreamIds.size}` +
+    (instructionsMissing ? ` (без перевода: ${instructionsMissing})` : '')
+);
+if (latinSteps) console.warn(`Шагов с латинскими вставками: ${latinSteps}`);
 for (const w of warnings) console.warn(`ПРЕДУПРЕЖДЕНИЕ: ${w}`);
 if (errors.length) {
   console.error(`\nОШИБКИ (${errors.length}):`);

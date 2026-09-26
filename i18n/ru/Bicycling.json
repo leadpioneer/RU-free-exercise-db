@@ -8,5 +8,8 @@
   ],
   "review_status": "machine_draft",
   "reviewed_at": null,
-  "reviewed_by": null
+  "reviewed_by": null,
+  "instructions_ru": [
+    "Для начала сядьте на велотренажёр и отрегулируйте седло под свой рост."
+  ]
 }
