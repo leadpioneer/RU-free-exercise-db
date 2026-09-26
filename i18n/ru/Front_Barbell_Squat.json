@@ -1,0 +1,15 @@
+{
+  "id": "Front_Barbell_Squat",
+  "locale": "ru",
+  "name": "Приседания со штангой на груди",
+  "aliases": [
+    "Front Barbell Squat",
+    "приседания",
+    "присед",
+    "штанга",
+    "квадрицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

@@ -1,0 +1,14 @@
+{
+  "id": "Bicycling_Stationary",
+  "locale": "ru",
+  "name": "Велотренажёр",
+  "aliases": [
+    "Bicycling, Stationary",
+    "Велотренажер",
+    "тренажёр",
+    "квадрицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

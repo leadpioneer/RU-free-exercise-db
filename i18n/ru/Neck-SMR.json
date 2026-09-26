@@ -1,0 +1,13 @@
+{
+  "id": "Neck-SMR",
+  "locale": "ru",
+  "name": "Шея (МФР)",
+  "aliases": [
+    "Neck-SMR",
+    "Шея",
+    "шея"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

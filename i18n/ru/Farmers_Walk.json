@@ -1,0 +1,12 @@
+{
+  "id": "Farmers_Walk",
+  "locale": "ru",
+  "name": "Прогулка фермера",
+  "aliases": [
+    "Farmer's Walk",
+    "предплечья"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

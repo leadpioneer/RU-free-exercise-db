@@ -1,0 +1,15 @@
+{
+  "id": "Car_Deadlift",
+  "locale": "ru",
+  "name": "Становая тяга автомобиля",
+  "aliases": [
+    "Car Deadlift",
+    "становая тяга",
+    "становая",
+    "тяга",
+    "квадрицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

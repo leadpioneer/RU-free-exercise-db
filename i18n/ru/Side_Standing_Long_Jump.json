@@ -1,0 +1,12 @@
+{
+  "id": "Side_Standing_Long_Jump",
+  "locale": "ru",
+  "name": "Прыжок в длину в сторону",
+  "aliases": [
+    "Side Standing Long Jump",
+    "квадрицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

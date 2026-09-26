@@ -1,0 +1,15 @@
+{
+  "id": "Thigh_Abductor",
+  "locale": "ru",
+  "name": "Отведение бёдер в тренажёре",
+  "aliases": [
+    "Thigh Abductor",
+    "Отведение бедер в тренажере",
+    "Отведение бёдер",
+    "тренажёр",
+    "отводящие"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

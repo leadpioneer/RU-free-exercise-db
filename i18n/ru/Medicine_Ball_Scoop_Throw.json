@@ -1,0 +1,13 @@
+{
+  "id": "Medicine_Ball_Scoop_Throw",
+  "locale": "ru",
+  "name": "Бросок медицинбола снизу",
+  "aliases": [
+    "Medicine Ball Scoop Throw",
+    "медицинбол",
+    "дельты"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

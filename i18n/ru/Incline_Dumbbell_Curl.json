@@ -1,0 +1,13 @@
+{
+  "id": "Incline_Dumbbell_Curl",
+  "locale": "ru",
+  "name": "Сгибание рук с гантелями на наклонной скамье",
+  "aliases": [
+    "Incline Dumbbell Curl",
+    "гантели",
+    "бицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

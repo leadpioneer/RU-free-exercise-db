@@ -1,0 +1,14 @@
+{
+  "id": "Dumbbell_Raise",
+  "locale": "ru",
+  "name": "Подъём гантелей в стороны",
+  "aliases": [
+    "Dumbbell Raise",
+    "Подъем гантелей в стороны",
+    "гантели",
+    "дельты"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

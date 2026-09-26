@@ -1,0 +1,15 @@
+{
+  "id": "Cable_Hip_Adduction",
+  "locale": "ru",
+  "name": "Приведение бедра на блоке",
+  "aliases": [
+    "Cable Hip Adduction",
+    "Приведение бедра",
+    "тяга блока",
+    "блок",
+    "квадрицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

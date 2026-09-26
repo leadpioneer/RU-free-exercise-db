@@ -1,0 +1,14 @@
+{
+  "id": "Sit_Squats",
+  "locale": "ru",
+  "name": "Приседания в сед",
+  "aliases": [
+    "Sit Squats",
+    "приседания",
+    "присед",
+    "квадрицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

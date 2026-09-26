@@ -1,0 +1,15 @@
+{
+  "id": "Dumbbell_Shrug",
+  "locale": "ru",
+  "name": "Шраги с гантелями",
+  "aliases": [
+    "Dumbbell Shrug",
+    "Шраги",
+    "шраги",
+    "гантели",
+    "трапеции"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

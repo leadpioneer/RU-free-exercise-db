@@ -1,0 +1,15 @@
+{
+  "id": "Machine_Bicep_Curl",
+  "locale": "ru",
+  "name": "Сгибание рук на бицепс в тренажёре",
+  "aliases": [
+    "Machine Bicep Curl",
+    "Сгибание рук на бицепс в тренажере",
+    "Сгибание рук на бицепс",
+    "бицепс",
+    "тренажёр"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

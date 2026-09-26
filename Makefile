@@ -1,4 +1,4 @@
-.PHONY: lint check_dupes check_missing_images install
+.PHONY: lint check_dupes check_missing_images install lint-ru validate-ru draft-ru
 
 sources := $(sort $(wildcard ./exercises/**.json))
 
@@ -29,3 +29,27 @@ dist/exercises.csv: dist/exercises.json
 		# requires in2csv which is part of
 		# https://csvkit.readthedocs.io/
 		in2csv ./dist/exercises.json > $@
+
+# ---------------------------------------------------------------------------
+# Russian localization (i18n/ru/*.json + scripts/*.mjs) — RU fork additions.
+# Upstream targets above are untouched; RU files live outside exercises/
+# so upstream wildcard/schemas are not affected.
+# ---------------------------------------------------------------------------
+RU_SOURCES := $(sort $(wildcard ./i18n/ru/*.json))
+
+lint-ru:
+		# validate every RU sidecar against i18n/ru/schema.ru.json
+		# requires check-jsonschema (see `make install`)
+		check-jsonschema --schemafile ./i18n/ru/schema.ru.json $(RU_SOURCES)
+
+validate-ru:
+		# coverage / duplicates / alias collisions / orphan files
+		node scripts/validate-localization.mjs
+
+draft-ru:
+		# regenerate machine drafts for untranslated exercises only
+		node scripts/draft-ru-names.mjs
+
+dist/exercises.ru.json: $(sources) $(RU_SOURCES) scripts/generate-ru-dist.mjs
+		# merge upstream exercises with RU localization into one file
+		node scripts/generate-ru-dist.mjs

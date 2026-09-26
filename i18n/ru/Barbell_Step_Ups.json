@@ -1,0 +1,14 @@
+{
+  "id": "Barbell_Step_Ups",
+  "locale": "ru",
+  "name": "Зашагивания на тумбу со штангой",
+  "aliases": [
+    "Barbell Step Ups",
+    "Зашагивания",
+    "штанга",
+    "квадрицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

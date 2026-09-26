@@ -1,0 +1,12 @@
+{
+  "id": "Depth_Jump_Leap",
+  "locale": "ru",
+  "name": "Прыжок в глубину с выпрыгиванием",
+  "aliases": [
+    "Depth Jump Leap",
+    "квадрицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

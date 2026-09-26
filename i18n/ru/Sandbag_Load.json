@@ -1,0 +1,12 @@
+{
+  "id": "Sandbag_Load",
+  "locale": "ru",
+  "name": "Заброс мешка с песком",
+  "aliases": [
+    "Sandbag Load",
+    "квадрицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

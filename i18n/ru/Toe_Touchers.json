@@ -1,0 +1,13 @@
+{
+  "id": "Toe_Touchers",
+  "locale": "ru",
+  "name": "Касания носков",
+  "aliases": [
+    "Toe Touchers",
+    "собственный вес",
+    "пресс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

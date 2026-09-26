@@ -1,0 +1,13 @@
+{
+  "id": "Lower_Back_Curl",
+  "locale": "ru",
+  "name": "Прогиб в пояснице",
+  "aliases": [
+    "Lower Back Curl",
+    "собственный вес",
+    "пресс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

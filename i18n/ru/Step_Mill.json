@@ -1,0 +1,14 @@
+{
+  "id": "Step_Mill",
+  "locale": "ru",
+  "name": "Степ-миллер (лестница)",
+  "aliases": [
+    "Step Mill",
+    "Степ-миллер",
+    "тренажёр",
+    "квадрицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

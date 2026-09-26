@@ -1,0 +1,15 @@
+{
+  "id": "Lunge_Sprint",
+  "locale": "ru",
+  "name": "Выпады-спринт (прыжковые)",
+  "aliases": [
+    "Lunge Sprint",
+    "Выпады-спринт",
+    "выпады",
+    "тренажёр",
+    "квадрицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

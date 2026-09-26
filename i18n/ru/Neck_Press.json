@@ -1,0 +1,15 @@
+{
+  "id": "Neck_Press",
+  "locale": "ru",
+  "name": "Подъём головы с сопротивлением (шея)",
+  "aliases": [
+    "Neck Press",
+    "Подъем головы с сопротивлением (шея)",
+    "Подъём головы с сопротивлением",
+    "штанга",
+    "грудные"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

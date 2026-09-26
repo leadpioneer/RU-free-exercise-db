@@ -1,0 +1,13 @@
+{
+  "id": "Foot-SMR",
+  "locale": "ru",
+  "name": "Стопа (МФР)",
+  "aliases": [
+    "Foot-SMR",
+    "Стопа",
+    "икры"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

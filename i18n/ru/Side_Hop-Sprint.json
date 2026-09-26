@@ -1,0 +1,12 @@
+{
+  "id": "Side_Hop-Sprint",
+  "locale": "ru",
+  "name": "прыжок спринт в сторону",
+  "aliases": [
+    "Side Hop-Sprint",
+    "квадрицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

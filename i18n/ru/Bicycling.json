@@ -1,0 +1,12 @@
+{
+  "id": "Bicycling",
+  "locale": "ru",
+  "name": "Велосипед",
+  "aliases": [
+    "Bicycling",
+    "квадрицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

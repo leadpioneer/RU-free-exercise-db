@@ -1,0 +1,16 @@
+{
+  "id": "Leg_Press",
+  "locale": "ru",
+  "name": "Жим ногами",
+  "aliases": [
+    "Leg Press",
+    "жим ногами",
+    "жим",
+    "тренажёр",
+    "квадрицепс",
+    "жим в тренажере"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

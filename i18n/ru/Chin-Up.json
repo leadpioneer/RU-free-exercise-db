@@ -1,0 +1,15 @@
+{
+  "id": "Chin-Up",
+  "locale": "ru",
+  "name": "Подтягивания обратным хватом",
+  "aliases": [
+    "Chin-Up",
+    "подтягивания",
+    "собственный вес",
+    "широчайшие",
+    "chin up"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

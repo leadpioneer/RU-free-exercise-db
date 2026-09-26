@@ -1,0 +1,15 @@
+{
+  "id": "Barbell_Walking_Lunge",
+  "locale": "ru",
+  "name": "Шагающие выпады со штангой",
+  "aliases": [
+    "Barbell Walking Lunge",
+    "Шагающие выпады",
+    "выпады",
+    "штанга",
+    "квадрицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

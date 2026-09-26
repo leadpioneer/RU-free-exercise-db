@@ -1,0 +1,16 @@
+{
+  "id": "Standing_Cable_Lift",
+  "locale": "ru",
+  "name": "На блоке подъём стоя",
+  "aliases": [
+    "Standing Cable Lift",
+    "На блоке подъем стоя",
+    "На блоке подъём",
+    "тяга блока",
+    "блок",
+    "пресс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

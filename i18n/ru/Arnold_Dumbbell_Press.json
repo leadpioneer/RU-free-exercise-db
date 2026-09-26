@@ -1,0 +1,15 @@
+{
+  "id": "Arnold_Dumbbell_Press",
+  "locale": "ru",
+  "name": "Жим Арнольда с гантелями",
+  "aliases": [
+    "Arnold Dumbbell Press",
+    "Жим Арнольда",
+    "жим",
+    "гантели",
+    "дельты"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

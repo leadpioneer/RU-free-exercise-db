@@ -1,0 +1,15 @@
+{
+  "id": "Adductor",
+  "locale": "ru",
+  "name": "Приводящие мышцы (растяжка)",
+  "aliases": [
+    "Adductor",
+    "Приводящие мышцы",
+    "растяжка",
+    "МФР-ролл",
+    "приводящие"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

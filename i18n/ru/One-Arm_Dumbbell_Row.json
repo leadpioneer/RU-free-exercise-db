@@ -1,0 +1,15 @@
+{
+  "id": "One-Arm_Dumbbell_Row",
+  "locale": "ru",
+  "name": "Тяга гантели в наклоне одной рукой",
+  "aliases": [
+    "One-Arm Dumbbell Row",
+    "Тяга гантели в наклоне",
+    "тяга",
+    "гантели",
+    "середина спины"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

@@ -1,0 +1,13 @@
+{
+  "id": "Standing_Long_Jump",
+  "locale": "ru",
+  "name": "Прыжок в длину с места",
+  "aliases": [
+    "Standing Long Jump",
+    "собственный вес",
+    "квадрицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

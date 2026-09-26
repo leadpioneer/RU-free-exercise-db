@@ -1,0 +1,13 @@
+{
+  "id": "Sled_Row",
+  "locale": "ru",
+  "name": "Тяга в санях",
+  "aliases": [
+    "Sled Row",
+    "тяга",
+    "середина спины"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

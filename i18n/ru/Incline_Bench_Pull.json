@@ -1,0 +1,15 @@
+{
+  "id": "Incline_Bench_Pull",
+  "locale": "ru",
+  "name": "Тяга лёжа на наклонной скамье",
+  "aliases": [
+    "Incline Bench Pull",
+    "Тяга лежа на наклонной скамье",
+    "тяга",
+    "штанга",
+    "середина спины"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

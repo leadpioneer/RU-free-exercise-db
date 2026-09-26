@@ -1,0 +1,14 @@
+{
+  "id": "Tate_Press",
+  "locale": "ru",
+  "name": "Жим Тейта",
+  "aliases": [
+    "Tate Press",
+    "жим",
+    "гантели",
+    "трицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

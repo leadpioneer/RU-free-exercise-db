@@ -1,0 +1,15 @@
+{
+  "id": "Body-Up",
+  "locale": "ru",
+  "name": "Подъём корпуса из упора (body-up)",
+  "aliases": [
+    "Body-Up",
+    "Подъем корпуса из упора (body-up)",
+    "Подъём корпуса из упора",
+    "собственный вес",
+    "трицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

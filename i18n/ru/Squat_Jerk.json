@@ -1,0 +1,14 @@
+{
+  "id": "Squat_Jerk",
+  "locale": "ru",
+  "name": "Толчок с подседом",
+  "aliases": [
+    "Squat Jerk",
+    "толчок",
+    "штанга",
+    "квадрицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

@@ -1,0 +1,14 @@
+{
+  "id": "Power_Snatch",
+  "locale": "ru",
+  "name": "Рывок без подседа",
+  "aliases": [
+    "Power Snatch",
+    "рывок",
+    "штанга",
+    "бицепс бедра"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

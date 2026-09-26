@@ -1,0 +1,14 @@
+{
+  "id": "Box_Jump_Multiple_Response",
+  "locale": "ru",
+  "name": "Прыжок на тумбу (многократный отклик)",
+  "aliases": [
+    "Box Jump (Multiple Response)",
+    "Прыжок на тумбу",
+    "Прыжок",
+    "бицепс бедра"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

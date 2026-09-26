@@ -1,0 +1,18 @@
+{
+  "id": "Barbell_Squat",
+  "locale": "ru",
+  "name": "Приседания со штангой",
+  "aliases": [
+    "Barbell Squat",
+    "Приседания",
+    "приседания",
+    "присед",
+    "штанга",
+    "квадрицепс",
+    "приседания со штангой",
+    "squats"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

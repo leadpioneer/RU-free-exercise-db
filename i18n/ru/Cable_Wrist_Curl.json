@@ -1,0 +1,14 @@
+{
+  "id": "Cable_Wrist_Curl",
+  "locale": "ru",
+  "name": "На блоке сгибание запястий",
+  "aliases": [
+    "Cable Wrist Curl",
+    "тяга блока",
+    "блок",
+    "предплечья"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

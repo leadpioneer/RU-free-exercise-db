@@ -1,0 +1,15 @@
+{
+  "id": "Incline_Dumbbell_Press",
+  "locale": "ru",
+  "name": "Жим гантелей на наклонной скамье",
+  "aliases": [
+    "Incline Dumbbell Press",
+    "жим гантелей",
+    "жим",
+    "гантели",
+    "грудные"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

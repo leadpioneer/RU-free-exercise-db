@@ -1,0 +1,16 @@
+{
+  "id": "Cable_Chest_Press",
+  "locale": "ru",
+  "name": "Жим от груди на блоке",
+  "aliases": [
+    "Cable Chest Press",
+    "Жим от груди",
+    "тяга блока",
+    "жим",
+    "блок",
+    "грудные"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

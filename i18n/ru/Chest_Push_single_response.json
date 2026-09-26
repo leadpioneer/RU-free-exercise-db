@@ -1,0 +1,15 @@
+{
+  "id": "Chest_Push_single_response",
+  "locale": "ru",
+  "name": "Толчок от груди (однократный отклик)",
+  "aliases": [
+    "Chest Push (single response)",
+    "Толчок от груди",
+    "толчок",
+    "медицинбол",
+    "грудные"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

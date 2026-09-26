@@ -1,0 +1,14 @@
+{
+  "id": "Jerk_Balance",
+  "locale": "ru",
+  "name": "Толчок баланс",
+  "aliases": [
+    "Jerk Balance",
+    "толчок",
+    "штанга",
+    "дельты"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

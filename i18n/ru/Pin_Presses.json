@@ -1,0 +1,14 @@
+{
+  "id": "Pin_Presses",
+  "locale": "ru",
+  "name": "Жим со штырей в раме",
+  "aliases": [
+    "Pin Presses",
+    "жим",
+    "штанга",
+    "трицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

@@ -1,0 +1,13 @@
+{
+  "id": "Side_Jackknife",
+  "locale": "ru",
+  "name": "Боковая складка",
+  "aliases": [
+    "Side Jackknife",
+    "собственный вес",
+    "пресс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

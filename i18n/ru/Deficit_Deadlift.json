@@ -1,0 +1,16 @@
+{
+  "id": "Deficit_Deadlift",
+  "locale": "ru",
+  "name": "Становая тяга с дефицита",
+  "aliases": [
+    "Deficit Deadlift",
+    "становая тяга",
+    "становая",
+    "тяга",
+    "штанга",
+    "поясница"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

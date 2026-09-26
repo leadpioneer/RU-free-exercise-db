@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "description": "Русская локализация одного упражнения из upstream-базы. Не редактируйте upstream-файлы exercises/*.json — только эти сайдкары.",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[0-9a-zA-Z_-]+$",
+      "description": "Должен совпадать с id и именем файла upstream-упражнения (exercises/<id>.json)"
+    },
+    "locale": {
+      "type": "string",
+      "enum": ["ru"]
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Русское название упражнения"
+    },
+    "aliases": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Русские алиасы и разговорные синонимы для поиска"
+    },
+    "review_status": {
+      "type": "string",
+      "enum": [
+        "machine_draft",
+        "reviewed",
+        "needs_review",
+        "do_not_translate"
+      ]
+    },
+    "reviewed_at": {
+      "type": ["string", "null"],
+      "format": "date-time"
+    },
+    "reviewed_by": {
+      "type": ["string", "null"]
+    },
+    "notes": {
+      "type": "string",
+      "description": "Комментарий переводчика (почему needs_review и т.п.)"
+    }
+  },
+  "required": [
+    "id",
+    "locale",
+    "name",
+    "aliases",
+    "review_status",
+    "reviewed_at",
+    "reviewed_by"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "Machine_Triceps_Extension",
+  "locale": "ru",
+  "name": "Разгибание рук на трицепс в тренажёре",
+  "aliases": [
+    "Machine Triceps Extension",
+    "Разгибание рук на трицепс в тренажере",
+    "Разгибание рук на трицепс",
+    "трицепс",
+    "тренажёр"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

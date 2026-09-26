@@ -1,0 +1,14 @@
+{
+  "id": "Power_Jerk",
+  "locale": "ru",
+  "name": "Толчок без подседа",
+  "aliases": [
+    "Power Jerk",
+    "толчок",
+    "штанга",
+    "квадрицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

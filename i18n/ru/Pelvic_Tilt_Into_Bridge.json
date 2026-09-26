@@ -1,0 +1,13 @@
+{
+  "id": "Pelvic_Tilt_Into_Bridge",
+  "locale": "ru",
+  "name": "Наклон таза с переходом в мост",
+  "aliases": [
+    "Pelvic Tilt Into Bridge",
+    "мост",
+    "поясница"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

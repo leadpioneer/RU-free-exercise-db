@@ -1,0 +1,15 @@
+{
+  "id": "Spell_Caster",
+  "locale": "ru",
+  "name": "Поворотные махи (spell caster)",
+  "aliases": [
+    "Spell Caster",
+    "Поворотные махи",
+    "махи",
+    "гантели",
+    "пресс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

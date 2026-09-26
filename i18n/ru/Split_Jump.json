@@ -1,0 +1,14 @@
+{
+  "id": "Split_Jump",
+  "locale": "ru",
+  "name": "Прыжки со сменой ног (ножницы)",
+  "aliases": [
+    "Split Jump",
+    "Прыжки со сменой ног",
+    "собственный вес",
+    "квадрицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

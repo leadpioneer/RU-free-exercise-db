@@ -1,0 +1,15 @@
+{
+  "id": "Groiners",
+  "locale": "ru",
+  "name": "Прыжки в широкие выпады (groiners)",
+  "aliases": [
+    "Groiners",
+    "Прыжки в широкие выпады",
+    "выпады",
+    "собственный вес",
+    "приводящие"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

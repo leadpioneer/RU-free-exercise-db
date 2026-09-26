@@ -1,0 +1,14 @@
+{
+  "id": "Side_Bridge",
+  "locale": "ru",
+  "name": "Боковая планка",
+  "aliases": [
+    "Side Bridge",
+    "планка",
+    "собственный вес",
+    "пресс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

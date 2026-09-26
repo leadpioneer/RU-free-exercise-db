@@ -1,0 +1,15 @@
+{
+  "id": "Speed_Squats",
+  "locale": "ru",
+  "name": "Скоростные приседания",
+  "aliases": [
+    "Speed Squats",
+    "приседания",
+    "присед",
+    "штанга",
+    "квадрицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

@@ -1,0 +1,13 @@
+{
+  "id": "Walking_Treadmill",
+  "locale": "ru",
+  "name": "Ходьба, беговая дорожка",
+  "aliases": [
+    "Walking, Treadmill",
+    "тренажёр",
+    "квадрицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

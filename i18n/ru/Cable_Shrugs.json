@@ -1,0 +1,16 @@
+{
+  "id": "Cable_Shrugs",
+  "locale": "ru",
+  "name": "Шраги на блоке",
+  "aliases": [
+    "Cable Shrugs",
+    "Шраги",
+    "шраги",
+    "тяга блока",
+    "блок",
+    "трапеции"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

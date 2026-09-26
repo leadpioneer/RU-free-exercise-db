@@ -1,0 +1,13 @@
+{
+  "id": "Plate_Twist",
+  "locale": "ru",
+  "name": "Повороты с диском",
+  "aliases": [
+    "Plate Twist",
+    "Повороты",
+    "пресс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

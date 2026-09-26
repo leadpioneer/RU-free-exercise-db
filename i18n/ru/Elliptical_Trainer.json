@@ -1,0 +1,14 @@
+{
+  "id": "Elliptical_Trainer",
+  "locale": "ru",
+  "name": "Эллиптический тренажёр",
+  "aliases": [
+    "Elliptical Trainer",
+    "Эллиптический тренажер",
+    "тренажёр",
+    "квадрицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

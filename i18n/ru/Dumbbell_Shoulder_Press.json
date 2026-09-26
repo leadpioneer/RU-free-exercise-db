@@ -1,0 +1,15 @@
+{
+  "id": "Dumbbell_Shoulder_Press",
+  "locale": "ru",
+  "name": "Жим гантелей над головой",
+  "aliases": [
+    "Dumbbell Shoulder Press",
+    "жим гантелей",
+    "жим",
+    "гантели",
+    "дельты"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

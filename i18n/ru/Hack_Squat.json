@@ -1,0 +1,15 @@
+{
+  "id": "Hack_Squat",
+  "locale": "ru",
+  "name": "Гакк-приседания",
+  "aliases": [
+    "Hack Squat",
+    "приседания",
+    "присед",
+    "тренажёр",
+    "квадрицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

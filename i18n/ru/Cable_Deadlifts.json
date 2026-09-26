@@ -1,0 +1,16 @@
+{
+  "id": "Cable_Deadlifts",
+  "locale": "ru",
+  "name": "Становая тяга на нижнем блоке",
+  "aliases": [
+    "Cable Deadlifts",
+    "становая тяга",
+    "становая",
+    "тяга",
+    "блок",
+    "квадрицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

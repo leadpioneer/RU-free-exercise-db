@@ -1,0 +1,15 @@
+{
+  "id": "Box_Squat",
+  "locale": "ru",
+  "name": "Приседания на ящик",
+  "aliases": [
+    "Box Squat",
+    "приседания",
+    "присед",
+    "штанга",
+    "квадрицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

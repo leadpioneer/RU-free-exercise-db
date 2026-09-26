@@ -1,0 +1,13 @@
+{
+  "id": "Rowing_Stationary",
+  "locale": "ru",
+  "name": "Гребля, стационарный",
+  "aliases": [
+    "Rowing, Stationary",
+    "тренажёр",
+    "квадрицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

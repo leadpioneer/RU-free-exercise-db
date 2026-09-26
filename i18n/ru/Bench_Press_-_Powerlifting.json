@@ -1,0 +1,19 @@
+{
+  "id": "Bench_Press_-_Powerlifting",
+  "locale": "ru",
+  "name": "Жим лёжа (пауэрлифтинг)",
+  "aliases": [
+    "Bench Press - Powerlifting",
+    "Жим лежа (пауэрлифтинг)",
+    "Жим лёжа",
+    "Жим",
+    "жим лёжа",
+    "bench press",
+    "жим",
+    "штанга",
+    "трицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

@@ -1,0 +1,14 @@
+{
+  "id": "Chain_Press",
+  "locale": "ru",
+  "name": "Жим с цепями",
+  "aliases": [
+    "Chain Press",
+    "Жим",
+    "жим",
+    "грудные"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

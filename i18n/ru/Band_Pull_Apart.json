@@ -1,0 +1,14 @@
+{
+  "id": "Band_Pull_Apart",
+  "locale": "ru",
+  "name": "Разведение ленты-эспандера в стороны",
+  "aliases": [
+    "Band Pull Apart",
+    "разведения",
+    "эспандер",
+    "дельты"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

@@ -1,0 +1,13 @@
+{
+  "id": "Medicine_Ball_Chest_Pass",
+  "locale": "ru",
+  "name": "Пас медицинболом от груди",
+  "aliases": [
+    "Medicine Ball Chest Pass",
+    "медицинбол",
+    "грудные"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

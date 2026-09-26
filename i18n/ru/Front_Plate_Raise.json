@@ -1,0 +1,13 @@
+{
+  "id": "Front_Plate_Raise",
+  "locale": "ru",
+  "name": "Подъём диска перед собой",
+  "aliases": [
+    "Front Plate Raise",
+    "Подъем диска перед собой",
+    "дельты"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

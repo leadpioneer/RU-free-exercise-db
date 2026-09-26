@@ -1,0 +1,16 @@
+{
+  "id": "Clean_Deadlift",
+  "locale": "ru",
+  "name": "Становая тяга в стойке взятия",
+  "aliases": [
+    "Clean Deadlift",
+    "становая тяга",
+    "становая",
+    "тяга",
+    "штанга",
+    "бицепс бедра"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

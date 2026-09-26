@@ -1,0 +1,13 @@
+{
+  "id": "Backward_Drag",
+  "locale": "ru",
+  "name": "Тяга саней спиной назад",
+  "aliases": [
+    "Backward Drag",
+    "тяга",
+    "квадрицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

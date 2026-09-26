@@ -1,0 +1,12 @@
+{
+  "id": "Sled_Push",
+  "locale": "ru",
+  "name": "Толкание саней",
+  "aliases": [
+    "Sled Push",
+    "квадрицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

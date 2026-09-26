@@ -1,0 +1,13 @@
+{
+  "id": "Stomach_Vacuum",
+  "locale": "ru",
+  "name": "Вакуум живота",
+  "aliases": [
+    "Stomach Vacuum",
+    "собственный вес",
+    "пресс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

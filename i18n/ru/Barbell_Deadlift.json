@@ -1,0 +1,18 @@
+{
+  "id": "Barbell_Deadlift",
+  "locale": "ru",
+  "name": "Становая тяга со штангой",
+  "aliases": [
+    "Barbell Deadlift",
+    "Становая тяга",
+    "становая тяга",
+    "становая",
+    "тяга",
+    "штанга",
+    "поясница",
+    "deadlift"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

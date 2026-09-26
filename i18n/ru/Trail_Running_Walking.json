@@ -1,0 +1,13 @@
+{
+  "id": "Trail_Running_Walking",
+  "locale": "ru",
+  "name": "Бег/ходьба по пересечённой местности",
+  "aliases": [
+    "Trail Running/Walking",
+    "Бег/ходьба по пересеченной местности",
+    "квадрицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

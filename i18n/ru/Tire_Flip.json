@@ -1,0 +1,12 @@
+{
+  "id": "Tire_Flip",
+  "locale": "ru",
+  "name": "Переворот шины",
+  "aliases": [
+    "Tire Flip",
+    "квадрицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

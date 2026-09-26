@@ -1,0 +1,14 @@
+{
+  "id": "Drag_Curl",
+  "locale": "ru",
+  "name": "Сгибания с прижатием к корпусу (drag curl)",
+  "aliases": [
+    "Drag Curl",
+    "Сгибания с прижатием к корпусу",
+    "штанга",
+    "бицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

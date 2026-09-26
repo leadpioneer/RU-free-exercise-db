@@ -1,0 +1,16 @@
+{
+  "id": "Smith_Machine_Leg_Press",
+  "locale": "ru",
+  "name": "В тренажёре Смитта жим ногами",
+  "aliases": [
+    "Smith Machine Leg Press",
+    "В тренажере Смитта жим ногами",
+    "жим ногами",
+    "жим",
+    "тренажёр",
+    "квадрицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

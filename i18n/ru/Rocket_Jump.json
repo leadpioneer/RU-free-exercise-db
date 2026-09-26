@@ -1,0 +1,14 @@
+{
+  "id": "Rocket_Jump",
+  "locale": "ru",
+  "name": "Прыжок вверх (ракета)",
+  "aliases": [
+    "Rocket Jump",
+    "Прыжок вверх",
+    "собственный вес",
+    "квадрицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

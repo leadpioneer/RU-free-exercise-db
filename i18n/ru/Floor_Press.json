@@ -1,0 +1,14 @@
+{
+  "id": "Floor_Press",
+  "locale": "ru",
+  "name": "Жим с пола",
+  "aliases": [
+    "Floor Press",
+    "жим",
+    "штанга",
+    "трицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

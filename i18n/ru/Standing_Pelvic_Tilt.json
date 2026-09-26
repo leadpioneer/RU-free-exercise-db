@@ -1,0 +1,13 @@
+{
+  "id": "Standing_Pelvic_Tilt",
+  "locale": "ru",
+  "name": "Таз наклон стоя",
+  "aliases": [
+    "Standing Pelvic Tilt",
+    "Таз наклон",
+    "поясница"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

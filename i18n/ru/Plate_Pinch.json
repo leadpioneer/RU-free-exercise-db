@@ -1,0 +1,13 @@
+{
+  "id": "Plate_Pinch",
+  "locale": "ru",
+  "name": "Удержание диска пальцами (пинч)",
+  "aliases": [
+    "Plate Pinch",
+    "Удержание диска пальцами",
+    "предплечья"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

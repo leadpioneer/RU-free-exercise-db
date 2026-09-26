@@ -1,0 +1,14 @@
+{
+  "id": "T-Bar_Row_with_Handle",
+  "locale": "ru",
+  "name": "Тяга Т-грифа с рукоятью",
+  "aliases": [
+    "T-Bar Row with Handle",
+    "тяга",
+    "штанга",
+    "середина спины"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

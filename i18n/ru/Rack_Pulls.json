@@ -1,0 +1,13 @@
+{
+  "id": "Rack_Pulls",
+  "locale": "ru",
+  "name": "Рама тяги",
+  "aliases": [
+    "Rack Pulls",
+    "штанга",
+    "поясница"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

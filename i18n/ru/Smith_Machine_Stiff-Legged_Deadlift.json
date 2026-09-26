@@ -1,0 +1,16 @@
+{
+  "id": "Smith_Machine_Stiff-Legged_Deadlift",
+  "locale": "ru",
+  "name": "Становая тяга на прямых ногах в Смитте",
+  "aliases": [
+    "Smith Machine Stiff-Legged Deadlift",
+    "становая тяга",
+    "становая",
+    "тяга",
+    "тренажёр",
+    "бицепс бедра"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

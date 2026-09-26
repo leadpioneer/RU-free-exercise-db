@@ -1,0 +1,14 @@
+{
+  "id": "Upright_Barbell_Row",
+  "locale": "ru",
+  "name": "Тяга штанги к подбородку",
+  "aliases": [
+    "Upright Barbell Row",
+    "тяга",
+    "штанга",
+    "дельты"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

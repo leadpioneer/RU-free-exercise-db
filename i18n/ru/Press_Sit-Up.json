@@ -1,0 +1,15 @@
+{
+  "id": "Press_Sit-Up",
+  "locale": "ru",
+  "name": "Сит-ап с жимом",
+  "aliases": [
+    "Press Sit-Up",
+    "сит-ап",
+    "пресс",
+    "жим",
+    "штанга"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

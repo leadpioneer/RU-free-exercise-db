@@ -33,6 +33,15 @@ jobs:
           mv dist/exercises{,.original}.json
           make dist/exercises.json
           diff -q dist/exercises{,.original}.json
+      - name: Lint RU localization to ensure it conforms with schema
+        run: make lint-ru
+      - name: Validate RU localization (coverage, duplicates, aliases)
+        run: make validate-ru
+      - name: Ensure dist/exercises.ru.json is up to date
+        run: |
+          mv dist/exercises.ru{,.original}.json
+          make dist/exercises.ru.json
+          diff -q dist/exercises.ru{,.original}.json
   test:
     runs-on: ubuntu-22.04
     steps:

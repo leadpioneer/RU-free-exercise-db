@@ -1,0 +1,13 @@
+{
+  "id": "Leg_Extensions",
+  "locale": "ru",
+  "name": "Разгибание ног",
+  "aliases": [
+    "Leg Extensions",
+    "тренажёр",
+    "квадрицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

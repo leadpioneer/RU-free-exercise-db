@@ -1,0 +1,18 @@
+{
+  "id": "Machine_Bench_Press",
+  "locale": "ru",
+  "name": "Жим лёжа в тренажёре",
+  "aliases": [
+    "Machine Bench Press",
+    "Жим лежа в тренажере",
+    "Жим",
+    "жим лёжа",
+    "bench press",
+    "жим",
+    "тренажёр",
+    "грудные"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

@@ -1,0 +1,14 @@
+{
+  "id": "Snatch",
+  "locale": "ru",
+  "name": "Рывок",
+  "aliases": [
+    "Snatch",
+    "рывок",
+    "штанга",
+    "квадрицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

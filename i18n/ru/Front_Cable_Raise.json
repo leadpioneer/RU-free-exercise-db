@@ -1,0 +1,16 @@
+{
+  "id": "Front_Cable_Raise",
+  "locale": "ru",
+  "name": "Подъём перед собой на блоке",
+  "aliases": [
+    "Front Cable Raise",
+    "Подъем перед собой на блоке",
+    "Подъём перед собой",
+    "тяга блока",
+    "блок",
+    "дельты"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

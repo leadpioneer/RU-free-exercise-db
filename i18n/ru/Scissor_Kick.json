@@ -1,0 +1,13 @@
+{
+  "id": "Scissor_Kick",
+  "locale": "ru",
+  "name": "Ножницы",
+  "aliases": [
+    "Scissor Kick",
+    "собственный вес",
+    "пресс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

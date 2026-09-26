@@ -1,0 +1,16 @@
+{
+  "id": "Bodyweight_Squat",
+  "locale": "ru",
+  "name": "Приседания с собственным весом",
+  "aliases": [
+    "Bodyweight Squat",
+    "Приседания",
+    "приседания",
+    "присед",
+    "собственный вес",
+    "квадрицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

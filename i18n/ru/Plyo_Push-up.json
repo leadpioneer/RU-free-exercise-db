@@ -1,0 +1,15 @@
+{
+  "id": "Plyo_Push-up",
+  "locale": "ru",
+  "name": "Плиометрический отжимания",
+  "aliases": [
+    "Plyo Push-up",
+    "отжимания",
+    "жим",
+    "собственный вес",
+    "грудные"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

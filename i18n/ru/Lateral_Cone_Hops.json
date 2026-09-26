@@ -1,0 +1,12 @@
+{
+  "id": "Lateral_Cone_Hops",
+  "locale": "ru",
+  "name": "Прыжки через конусы в сторону",
+  "aliases": [
+    "Lateral Cone Hops",
+    "приводящие"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

@@ -1,0 +1,15 @@
+{
+  "id": "Smith_Machine_Bent_Over_Row",
+  "locale": "ru",
+  "name": "В тренажёре Смитта в наклоне тяга",
+  "aliases": [
+    "Smith Machine Bent Over Row",
+    "В тренажере Смитта в наклоне тяга",
+    "тяга",
+    "тренажёр",
+    "середина спины"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

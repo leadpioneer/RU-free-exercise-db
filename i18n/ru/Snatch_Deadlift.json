@@ -1,0 +1,17 @@
+{
+  "id": "Snatch_Deadlift",
+  "locale": "ru",
+  "name": "Рывок становая тяга",
+  "aliases": [
+    "Snatch Deadlift",
+    "становая тяга",
+    "становая",
+    "тяга",
+    "рывок",
+    "штанга",
+    "бицепс бедра"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

@@ -1,0 +1,18 @@
+{
+  "id": "Machine_Shoulder_Military_Press",
+  "locale": "ru",
+  "name": "Армейский жим в тренажёре",
+  "aliases": [
+    "Machine Shoulder (Military) Press",
+    "Армейский жим в тренажере",
+    "Армейский жим",
+    "армейский жим",
+    "жим стоя",
+    "жим",
+    "тренажёр",
+    "дельты"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

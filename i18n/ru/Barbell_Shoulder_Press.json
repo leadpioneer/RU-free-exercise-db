@@ -1,0 +1,15 @@
+{
+  "id": "Barbell_Shoulder_Press",
+  "locale": "ru",
+  "name": "Жим штанги над головой",
+  "aliases": [
+    "Barbell Shoulder Press",
+    "жим штанги",
+    "жим",
+    "штанга",
+    "дельты"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

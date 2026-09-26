@@ -1,0 +1,15 @@
+{
+  "id": "External_Rotation_with_Cable",
+  "locale": "ru",
+  "name": "Внешняя ротация на блоке",
+  "aliases": [
+    "External Rotation with Cable",
+    "Внешняя ротация",
+    "тяга блока",
+    "блок",
+    "дельты"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

@@ -1,0 +1,14 @@
+{
+  "id": "Forward_Drag_with_Press",
+  "locale": "ru",
+  "name": "Тяга саней с жимом",
+  "aliases": [
+    "Forward Drag with Press",
+    "тяга",
+    "жим",
+    "грудные"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

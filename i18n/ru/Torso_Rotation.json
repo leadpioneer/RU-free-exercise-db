@@ -1,0 +1,13 @@
+{
+  "id": "Torso_Rotation",
+  "locale": "ru",
+  "name": "Корпус вращение",
+  "aliases": [
+    "Torso Rotation",
+    "фитбол",
+    "пресс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

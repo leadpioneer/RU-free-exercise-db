@@ -1,0 +1,13 @@
+{
+  "id": "Scissors_Jump",
+  "locale": "ru",
+  "name": "Прыжки-ножницы",
+  "aliases": [
+    "Scissors Jump",
+    "собственный вес",
+    "квадрицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

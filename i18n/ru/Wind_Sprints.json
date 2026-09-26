@@ -1,0 +1,13 @@
+{
+  "id": "Wind_Sprints",
+  "locale": "ru",
+  "name": "Рваные спринты",
+  "aliases": [
+    "Wind Sprints",
+    "собственный вес",
+    "пресс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

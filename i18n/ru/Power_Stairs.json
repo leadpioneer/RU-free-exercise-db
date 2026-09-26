@@ -1,0 +1,13 @@
+{
+  "id": "Power_Stairs",
+  "locale": "ru",
+  "name": "Силовые ступени (перенос снарядов)",
+  "aliases": [
+    "Power Stairs",
+    "Силовые ступени",
+    "бицепс бедра"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

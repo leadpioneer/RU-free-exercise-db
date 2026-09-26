@@ -1,0 +1,16 @@
+{
+  "id": "Standing_Dumbbell_Press",
+  "locale": "ru",
+  "name": "Жим гантелей стоя",
+  "aliases": [
+    "Standing Dumbbell Press",
+    "Жим гантелей",
+    "жим гантелей",
+    "жим",
+    "гантели",
+    "дельты"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

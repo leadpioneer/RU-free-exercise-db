@@ -1,0 +1,13 @@
+{
+  "id": "Lateral_Bound",
+  "locale": "ru",
+  "name": "Многоскоки в сторону",
+  "aliases": [
+    "Lateral Bound",
+    "собственный вес",
+    "приводящие"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

@@ -1,0 +1,14 @@
+{
+  "id": "Recumbent_Bike",
+  "locale": "ru",
+  "name": "Горизонтальный велотренажёр",
+  "aliases": [
+    "Recumbent Bike",
+    "Горизонтальный велотренажер",
+    "тренажёр",
+    "квадрицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

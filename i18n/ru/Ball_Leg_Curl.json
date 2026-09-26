@@ -1,0 +1,14 @@
+{
+  "id": "Ball_Leg_Curl",
+  "locale": "ru",
+  "name": "Сгибание ног на фитболе",
+  "aliases": [
+    "Ball Leg Curl",
+    "Сгибание ног",
+    "фитбол",
+    "бицепс бедра"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

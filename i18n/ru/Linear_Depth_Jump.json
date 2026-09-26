@@ -1,0 +1,12 @@
+{
+  "id": "Linear_Depth_Jump",
+  "locale": "ru",
+  "name": "Линейный прыжок в глубину",
+  "aliases": [
+    "Linear Depth Jump",
+    "квадрицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

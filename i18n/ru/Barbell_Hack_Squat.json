@@ -1,0 +1,15 @@
+{
+  "id": "Barbell_Hack_Squat",
+  "locale": "ru",
+  "name": "Гакк-приседания со штангой за спиной",
+  "aliases": [
+    "Barbell Hack Squat",
+    "приседания",
+    "присед",
+    "штанга",
+    "квадрицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

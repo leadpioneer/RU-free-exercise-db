@@ -1,0 +1,15 @@
+{
+  "id": "Air_Bike",
+  "locale": "ru",
+  "name": "Айр-байк (воздушный велотренажёр)",
+  "aliases": [
+    "Air Bike",
+    "Айр-байк (воздушный велотренажер)",
+    "Айр-байк",
+    "собственный вес",
+    "пресс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

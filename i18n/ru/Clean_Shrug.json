@@ -1,0 +1,14 @@
+{
+  "id": "Clean_Shrug",
+  "locale": "ru",
+  "name": "Шраги с подрывом",
+  "aliases": [
+    "Clean Shrug",
+    "шраги",
+    "штанга",
+    "трапеции"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

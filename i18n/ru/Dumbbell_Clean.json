@@ -1,0 +1,15 @@
+{
+  "id": "Dumbbell_Clean",
+  "locale": "ru",
+  "name": "Взятие на грудь с гантелями",
+  "aliases": [
+    "Dumbbell Clean",
+    "Взятие на грудь",
+    "взятие на грудь",
+    "гантели",
+    "бицепс бедра"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

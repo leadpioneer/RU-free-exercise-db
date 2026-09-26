@@ -1,0 +1,16 @@
+{
+  "id": "Dumbbell_Squat",
+  "locale": "ru",
+  "name": "Приседания с гантелями",
+  "aliases": [
+    "Dumbbell Squat",
+    "Приседания",
+    "приседания",
+    "присед",
+    "гантели",
+    "квадрицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

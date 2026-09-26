@@ -1,0 +1,15 @@
+{
+  "id": "Dead_Bug",
+  "locale": "ru",
+  "name": "«Мёртвый жук» (dead bug)",
+  "aliases": [
+    "Dead Bug",
+    "«Мертвый жук» (dead bug)",
+    "«Мёртвый жук»",
+    "собственный вес",
+    "пресс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

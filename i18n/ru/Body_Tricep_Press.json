@@ -1,0 +1,15 @@
+{
+  "id": "Body_Tricep_Press",
+  "locale": "ru",
+  "name": "Отжимания на трицепс собственным весом",
+  "aliases": [
+    "Body Tricep Press",
+    "отжимания",
+    "трицепс",
+    "жим",
+    "собственный вес"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

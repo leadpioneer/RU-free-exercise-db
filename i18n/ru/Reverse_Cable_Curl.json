@@ -1,0 +1,15 @@
+{
+  "id": "Reverse_Cable_Curl",
+  "locale": "ru",
+  "name": "Обратный сгибание рук на блоке",
+  "aliases": [
+    "Reverse Cable Curl",
+    "Обратный сгибание рук",
+    "тяга блока",
+    "блок",
+    "бицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

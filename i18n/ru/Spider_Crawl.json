@@ -1,0 +1,13 @@
+{
+  "id": "Spider_Crawl",
+  "locale": "ru",
+  "name": "Паук ползание",
+  "aliases": [
+    "Spider Crawl",
+    "собственный вес",
+    "пресс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

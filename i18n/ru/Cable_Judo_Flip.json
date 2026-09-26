@@ -1,0 +1,15 @@
+{
+  "id": "Cable_Judo_Flip",
+  "locale": "ru",
+  "name": "«Бросок дзюдо» на блоке",
+  "aliases": [
+    "Cable Judo Flip",
+    "«Бросок дзюдо»",
+    "тяга блока",
+    "блок",
+    "пресс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

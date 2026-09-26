@@ -1,0 +1,13 @@
+{
+  "id": "Front_Box_Jump",
+  "locale": "ru",
+  "name": "Прыжок на тумбу вперёд",
+  "aliases": [
+    "Front Box Jump",
+    "Прыжок на тумбу вперед",
+    "бицепс бедра"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

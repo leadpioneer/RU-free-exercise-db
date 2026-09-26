@@ -1,0 +1,13 @@
+{
+  "id": "Crucifix",
+  "locale": "ru",
+  "name": "Распятие (удержание в стороны)",
+  "aliases": [
+    "Crucifix",
+    "Распятие",
+    "дельты"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

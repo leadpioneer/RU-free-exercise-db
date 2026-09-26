@@ -1,0 +1,15 @@
+{
+  "id": "Supine_Chest_Throw",
+  "locale": "ru",
+  "name": "Бросок от груди лёжа",
+  "aliases": [
+    "Supine Chest Throw",
+    "Бросок от груди лежа",
+    "Бросок от груди",
+    "медицинбол",
+    "трицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

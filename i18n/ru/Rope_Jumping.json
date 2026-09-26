@@ -1,0 +1,13 @@
+{
+  "id": "Rope_Jumping",
+  "locale": "ru",
+  "name": "прыжки с канатом",
+  "aliases": [
+    "Rope Jumping",
+    "прыжки",
+    "квадрицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

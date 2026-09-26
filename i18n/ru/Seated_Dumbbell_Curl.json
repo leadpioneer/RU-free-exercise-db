@@ -1,0 +1,14 @@
+{
+  "id": "Seated_Dumbbell_Curl",
+  "locale": "ru",
+  "name": "Сгибание рук с гантелями сидя",
+  "aliases": [
+    "Seated Dumbbell Curl",
+    "Сгибание рук",
+    "гантели",
+    "бицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

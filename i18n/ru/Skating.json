@@ -1,0 +1,13 @@
+{
+  "id": "Skating",
+  "locale": "ru",
+  "name": "Коньковый шаг (skating)",
+  "aliases": [
+    "Skating",
+    "Коньковый шаг",
+    "квадрицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

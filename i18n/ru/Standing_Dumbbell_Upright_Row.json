@@ -1,0 +1,16 @@
+{
+  "id": "Standing_Dumbbell_Upright_Row",
+  "locale": "ru",
+  "name": "тяга к подбородку с гантелью стоя",
+  "aliases": [
+    "Standing Dumbbell Upright Row",
+    "тяга к подбородку",
+    "тяга блока",
+    "тяга",
+    "гантели",
+    "трапеции"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

@@ -1,0 +1,14 @@
+{
+  "id": "Overhead_Lat",
+  "locale": "ru",
+  "name": "Тяга верхнего блока из-за головы",
+  "aliases": [
+    "Overhead Lat",
+    "тяга блока",
+    "тяга",
+    "широчайшие"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

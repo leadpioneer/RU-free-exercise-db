@@ -1,0 +1,16 @@
+{
+  "id": "Barbell_Curl",
+  "locale": "ru",
+  "name": "Сгибание рук со штангой",
+  "aliases": [
+    "Barbell Curl",
+    "Сгибание рук",
+    "штанга",
+    "бицепс",
+    "сгибание на бицепс",
+    "подъем штанги на бицепс"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

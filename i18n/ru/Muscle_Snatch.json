@@ -1,0 +1,15 @@
+{
+  "id": "Muscle_Snatch",
+  "locale": "ru",
+  "name": "Силовой рывок (без подседа)",
+  "aliases": [
+    "Muscle Snatch",
+    "Силовой рывок",
+    "рывок",
+    "штанга",
+    "бицепс бедра"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

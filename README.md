@@ -1,164 +1,152 @@
-## Free Exercise DB 💪  &nbsp; [![Test, Lint & Deploy Site to Github Pages](https://github.com/yuhonas/free-exercise-db/actions/workflows/ci.yaml/badge.svg)](https://github.com/yuhonas/free-exercise-db/actions/workflows/ci.yaml) [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+# RU-free-exercise-db 🇷🇺💪
 
-Open Public Domain Exercise Dataset in `JSON` format, 800+ exercises with a browsable public searchable frontend
+[![CI](https://github.com/leadpioneer/RU-free-exercise-db/actions/workflows/ci.yaml/badge.svg)](https://github.com/leadpioneer/RU-free-exercise-db/actions/workflows/ci.yaml)
+[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
-### Why?
+Русифицированный форк открытой базы упражнений
+[yuhonas/free-exercise-db](https://github.com/yuhonas/free-exercise-db):
+**876 упражнений** с русскими названиями и ~3800 поисковыми алиасами —
+готово для импорта в SparkyFitness, Telegram-ботов и любых своих приложений.
 
-I started building another fitness related app and was looking for free/open source exercise lists and imagery I stumbled upon
-[exercises.json](https://github.com/wrkout/exercises.json) which was amazing though the data wasn't structured the way I wanted it and I also wanted a browsable/searchable frontend to the data inspired by [this issue](https://github.com/wrkout/exercises.json/issues/5) so I restructured the data and built a simple frontend to it :)
+Русификация — это **надстройка**: upstream-данные в `exercises/` не изменяются,
+поэтому обновления из оригинального репозитория подтягиваются без конфликтов.
 
-### What do they look like?
+## Быстрый старт
 
-All exercises are stored as seperate `JSON` documents and conform to the following [JSON Schema](./schema.json) eg.
+Скачайте один файл и используйте:
+
+```
+https://raw.githubusercontent.com/leadpioneer/RU-free-exercise-db/main/dist/exercises.ru.json
+```
+
+Картинки упражнений лежат в upstream-репозитории — путь из поля `images`
+(например `Barbell_Bench_Press_-_Medium_Grip/0.jpg`) подставьте префиксом:
+
+```
+https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/<путь из images>
+```
+
+## Формат записи
+
+Каждая запись `dist/exercises.ru.json` — это upstream-запись целиком плюс
+три русских поля:
 
 ```json
 {
-  "id": "Alternate_Incline_Dumbbell_Curl",
-  "name": "Alternate Incline Dumbbell Curl",
-  "force": "pull",
-  "level": "beginner",
-  "mechanic": "isolation",
-  "equipment": "dumbbell",
-  "primaryMuscles": [
-    "biceps"
+  "id": "Barbell_Bench_Press_-_Medium_Grip",
+  "name": "Barbell Bench Press - Medium Grip",
+  "name_ru": "Жим штанги лёжа средним хватом",
+  "aliases_ru": [
+    "Жим штанги лёжа",
+    "жим лёжа",
+    "жим лежа",
+    "Жим штанги",
+    "штанга",
+    "грудные",
+    "bench press"
   ],
-  "secondaryMuscles": [
-    "forearms"
-  ],
-  "instructions": [
-    "Sit down on an incline bench with a dumbbell in each hand being held at arms length. Tip: Keep the elbows close to the torso.This will be your starting position.",
-  ],
+  "review_status": "machine_draft",
+  "force": "push",
+  "level": "intermediate",
+  "mechanic": "compound",
+  "equipment": "barbell",
+  "primaryMuscles": ["chest"],
+  "secondaryMuscles": ["triceps", "shoulders"],
+  "instructions": ["..."],
   "category": "strength",
-  "images": [
-    "Alternate_Incline_Dumbbell_Curl/0.jpg",
-    "Alternate_Incline_Dumbbell_Curl/1.jpg"
-  ]
+  "images": ["Barbell_Bench_Press_-_Medium_Grip/0.jpg"]
 }
 ```
-See [Alternate_Incline_Dumbbell_Curl.json](./exercises/Alternate_Incline_Dumbbell_Curl.json)
 
-To further explore the data, you can use [lite.datasette.io](https://lite.datasette.io/?json=https://github.com/yuhonas/free-exercise-db/blob/main/dist/exercises.json#/data/exercises?_facet_array=primaryMuscles&_facet=force&_facet=level&_facet=equipment)
+### Как искать
 
-### How do I use them?
+Матчите запрос по `name_ru` **и** всем элементам `aliases_ru`, нормализовав
+строку: нижний регистр, `ё → е`, схлопывание пробелов. Алиасы включают:
 
-You can check the repo out and use the `JSON` files and images locally
+- короткие формы («Шраги со штангой» → «Шраги»);
+- разговорные ключевые слова («становая», «присед», «брусья», «жим лёжа»,
+  «тяга блока», «пресс»);
+- снаряд и целевые мышцы из upstream («штанга», «гантели», «грудные») —
+  русский алиас есть у каждой записи;
+- английское название (двуязычный поиск).
 
-#### Alternatively
+### Статус перевода
 
-You can leverage github's hosting and access the single or combined [exercises.json](https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/dist/exercises.json) and prefix any of image path's contained in the `JSON` with `https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/` to get a hosted version of the image eg. [Air_Bike/0.jpg](https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Air_Bike/0.jpg) or leverage something like [imagekit.io](https://imagekit.io/) for dynamic image resizing which is utlized on the frontend [ example site ](https://github.com/yuhonas/free-exercise-db/blob/main/site/src/components/PhotoGallery.vue#L44-L54)
+| Статус | Значение |
+|---|---|
+| `machine_draft` | перевод создан глоссарий-движком, не проверен человеком |
+| `reviewed` | вычитано вручную (заполнены `reviewed_at` / `reviewed_by`) |
+| `needs_review` | автоматика пометила неоднозначность (см. `notes`) |
+| `do_not_translate` | бренд/термин оставлен как есть |
 
-### Build tasks
-There are a number of helpful [Makefile](./Makefile) tasks that you can utilize
+Сейчас: 874 `machine_draft`, 2 `needs_review`, 0 `reviewed`.
+Спорные термины (deadlift/row/curl/lunge/press и их варианты) разобраны в
+[docs/GLOSSARY_RU.md](./docs/GLOSSARY_RU.md).
 
-#### Linting
-To lint all the `JSON` files against the [schema.json](./schema.json) use
+## Структура репозитория
 
 ```
-make lint
+exercises/                    # upstream: JSON + картинки (не править вручную)
+i18n/ru/<id>.json             # русская локализация — сайдкар на упражнение
+i18n/ru/schema.ru.json        # JSON Schema русской записи
+dist/exercises.json           # upstream-сборка (генерируется)
+dist/exercises.ru.json        # RU-сборка: upstream + name_ru/aliases_ru
+scripts/lib/                  # глоссарий-движок перевода названий
+scripts/*.mjs                 # draft / merge / validate
+docs/GLOSSARY_RU.md           # канонический глоссарий терминов
+docs/TRANSLATION_GUIDE_RU.md  # процесс перевода, ревью и поиска
+site/                         # browsable frontend (upstream, Vue.js)
 ```
 
-#### Combining into a single JSON file
-If you make changes to any of the exercises or add new ones, to recombine all single `JSON` files into a single `JSON` containing an array of objects using the following make task
+## Сборка и проверка
+
+Нужны [Node.js ≥ 18](https://nodejs.org), `pip install check-jsonschema`
+(для `make lint*`) и [jq](https://jqlang.github.io/jq/) (upstream-сборка).
 
 ```sh
-make dist/exercises.json
+make validate-ru              # покрытие 876/876, дубли, коллизии алиасов
+make lint-ru                  # сайдкары против i18n/ru/schema.ru.json
+make dist/exercises.ru.json   # пересобрать RU-дистрибутив
+make lint                     # upstream: JSON против schema.json
+make dist/exercises.json      # upstream: пересобрать dist
 ```
-_Note: requires [jq](https://stedolan.github.io/jq/)_
 
-#### Importing into PostgreSQL
-To combine all `JSON` files into [Newline Delimeted JSON](https://en.wikipedia.org/wiki/JSON_streaming#Newline-delimited_JSON) suitable for import into PostgreSQL use the following make task
+Перегенерация черновиков перевода после правки словарей:
 
 ```sh
-make dist/exercises.nd.json
+node scripts/draft-ru-names.mjs --force && make dist/exercises.ru.json
 ```
-_Note: requires [jq](https://stedolan.github.io/jq/)_
 
-See also [Importing JSON into PostgreSQL using COPY](https://konbert.com/blog/import-json-into-postgres-using-copy)
+Всё это выполняется в CI: schema-линт обеих баз, валидация локализации и
+проверка, что оба dist-файла пересобраны и актуальны.
 
-### Browsable frontend
-
-<img src="./site/public/screenshot.png" alt="Screenshot of browsable frontend" width="500">
-
-There is a simple searchable/browsable frontend to the data written in [Vue.js](https://vuejs.org/)  available at [yuhonas.github.io/free-exercise-db](https://yuhonas.github.io/free-exercise-db/) all related code is in the [site](./site) directory
-
-
-#### Setup
+## Обновление из upstream
 
 ```sh
-npm install
+git pull upstream main
+make validate-ru              # покажет новые упражнения без локализации
+node scripts/draft-ru-names.mjs && make dist/exercises.ru.json
 ```
 
-#### Compile and Hot-Reload for Development
+Файлы со статусом `reviewed` / `do_not_translate` перегенератор не трогает.
 
-```sh
-npm run dev
-```
+## Данные
 
-#### Compile and Minify for Production
+Поля записи: `id, name, force, level, mechanic, equipment, primaryMuscles,
+secondaryMuscles, instructions, category, images` + русские `name_ru,
+aliases_ru, review_status`. Enum'ы и терминология — в
+[docs/GLOSSARY_RU.md](./docs/GLOSSARY_RU.md), upstream-схема — в
+[schema.json](./schema.json).
 
-```sh
-npm run build
-```
+## Лицензия
 
-#### Run Unit Tests with [Vitest](https://vitest.dev/)
+Данные — [Unlicense](./LICENSE.md) (public domain), как и в upstream.
+Русская локализация распространяется на тех же условиях.
 
-```sh
-npm run test:unit
-```
+## Благодарности
 
-#### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
-
-```sh
-npm run test:e2e:dev
-```
-
-This runs the end-to-end tests against the Vite development server.
-It is much faster than the production build.
-
-But it's still recommended to test the production build with `test:e2e` before deploying (e.g. in CI environments):
-
-```sh
-npm run build
-npm run test:e2e
-```
-
-#### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
-
-### TODO
-
-#### Incomplete fields
-
-The following fields are incomplete in _some_ `JSON` files and in such have had to allow `null` in [schema.json](./schema.json)
-
-* force
-* mechanic
-* equipment
-
-#### Images
-
-There are also a small number of duplicate images eg.
-
-```sh
-jdupes --summarize --recurse .
-
-Scanning: 2620 files, 874 items (in 1 specified)
-25 duplicate files (in 22 sets), occupying 809 KB
-```
-
-### Contributors
-
-<a href="https://github.com/yuhonas/free-exercise-db/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=yuhonas/free-exercise-db" />
-</a>
-
-Made with [contrib.rocks](https://contrib.rocks).
-
-Contributions are always welcome! Please read the contribution guidelines first.
-
-### Special Thanks 🙇
-* [Ollie Jennings](https://github.com/OllieJennings) for the original dataset at [exercises.json](https://github.com/wrkout/exercises.json)
-* flaticon for the favicon see [Sports-and-competition icons created by Dragon Icons - Flaticon](https://www.flaticon.com/free-icons/sports-and-competition)
+- [yuhonas/free-exercise-db](https://github.com/yuhonas/free-exercise-db) —
+  исходная база и фронтенд;
+- [wrkout/exercises.json](https://github.com/wrkout/exercises.json) —
+  оригинальный датасет (Ollie Jennings);
+- flaticon — фавикон.

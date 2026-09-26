@@ -1,0 +1,12 @@
+{
+  "id": "Balance_Board",
+  "locale": "ru",
+  "name": "Балансировочная платформа",
+  "aliases": [
+    "Balance Board",
+    "икры"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}

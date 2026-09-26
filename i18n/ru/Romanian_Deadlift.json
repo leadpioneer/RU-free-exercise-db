@@ -1,0 +1,16 @@
+{
+  "id": "Romanian_Deadlift",
+  "locale": "ru",
+  "name": "Румынская тяга",
+  "aliases": [
+    "Romanian Deadlift",
+    "румынская тяга",
+    "рдл",
+    "тяга",
+    "штанга",
+    "бицепс бедра"
+  ],
+  "review_status": "machine_draft",
+  "reviewed_at": null,
+  "reviewed_by": null
+}
