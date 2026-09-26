@@ -5,6 +5,14 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { normalizeAlias, leftoverLatin } from './lib/translate.mjs';
+import {
+  FORCE_RU,
+  LEVEL_RU,
+  MECHANIC_RU,
+  EQUIPMENT_RU,
+  CATEGORY_RU,
+  MUSCLES_RU,
+} from './lib/enums-ru.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const exercisesDir = path.join(root, 'exercises');
@@ -29,6 +37,28 @@ for (const f of upstreamFiles) {
   if (upstreamIds.has(ex.id)) fail(`Дубликат upstream id: ${ex.id}`);
   upstreamIds.set(ex.id, f);
   upstreamById.set(ex.id, ex);
+}
+
+// 1b. Перечисления: каждое значение upstream-схемы должно иметь перевод.
+// Если upstream добавит новое значение — валидация упадёт, пока словарь не дополнен.
+const schema = JSON.parse(fs.readFileSync(path.join(root, 'schema.json'), 'utf8'));
+const enumDictionaries = [
+  ['force', schema.properties.force.enum, FORCE_RU],
+  ['level', schema.properties.level.enum, LEVEL_RU],
+  ['mechanic', schema.properties.mechanic.enum, MECHANIC_RU],
+  ['equipment', schema.properties.equipment.enum, EQUIPMENT_RU],
+  ['category', schema.properties.category.enum, CATEGORY_RU],
+  ['muscles', schema.properties.primaryMuscles.items[0].enum, MUSCLES_RU],
+];
+let enumTotal = 0;
+let enumTranslated = 0;
+for (const [name, values, dict] of enumDictionaries) {
+  for (const v of values) {
+    if (v === null || v === undefined) continue;
+    enumTotal++;
+    if (dict[v]) enumTranslated++;
+    else fail(`Нет перевода enum "${name}": "${v}" — дополните scripts/lib/enums-ru.mjs`);
+  }
 }
 
 // 2. Загружаем локализацию
@@ -136,6 +166,7 @@ console.log(
   `Инструкции переведены: ${instructionsCovered}/${upstreamIds.size}` +
     (instructionsMissing ? ` (без перевода: ${instructionsMissing})` : '')
 );
+console.log(`Перечисления переведены: ${enumTranslated}/${enumTotal}`);
 if (latinSteps) console.warn(`Шагов с латинскими вставками: ${latinSteps}`);
 for (const w of warnings) console.warn(`ПРЕДУПРЕЖДЕНИЕ: ${w}`);
 if (errors.length) {

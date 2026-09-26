@@ -8,6 +8,15 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { normalizeAlias, deriveRuAliases, upstreamKeywords } from './lib/translate.mjs';
+import {
+  FORCE_RU,
+  LEVEL_RU,
+  MECHANIC_RU,
+  EQUIPMENT_RU,
+  CATEGORY_RU,
+  MUSCLES_RU,
+  enumRu,
+} from './lib/enums-ru.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const exercisesDir = path.join(root, 'exercises');
@@ -59,11 +68,36 @@ for (const file of files) {
   }
   add(ex.name.toLowerCase());
 
+  // русские перечисления; непереведённое значение — ошибка сборки
+  const ruMuscles = (arr) =>
+    arr.map((m) => {
+      const r = enumRu(MUSCLES_RU, m);
+      if (!r) errors.push(`Нет перевода мышцы: "${m}" (${ex.id})`);
+      return r;
+    });
+  const levelRu = enumRu(LEVEL_RU, ex.level);
+  if (!levelRu) errors.push(`Нет перевода level: "${ex.level}" (${ex.id})`);
+  const categoryRu = enumRu(CATEGORY_RU, ex.category);
+  if (!categoryRu) errors.push(`Нет перевода category: "${ex.category}" (${ex.id})`);
+  if (ex.equipment != null && !EQUIPMENT_RU[ex.equipment])
+    errors.push(`Нет перевода equipment: "${ex.equipment}" (${ex.id})`);
+  if (ex.force != null && !FORCE_RU[ex.force])
+    errors.push(`Нет перевода force: "${ex.force}" (${ex.id})`);
+  if (ex.mechanic != null && !MECHANIC_RU[ex.mechanic])
+    errors.push(`Нет перевода mechanic: "${ex.mechanic}" (${ex.id})`);
+
   merged.push({
     ...ex,
     name_ru: ru.name,
     aliases_ru: [...aliases.values()],
     review_status: ru.review_status,
+    level_ru: levelRu,
+    category_ru: categoryRu,
+    force_ru: enumRu(FORCE_RU, ex.force),
+    mechanic_ru: enumRu(MECHANIC_RU, ex.mechanic),
+    equipment_ru: enumRu(EQUIPMENT_RU, ex.equipment),
+    primaryMuscles_ru: ruMuscles(ex.primaryMuscles),
+    secondaryMuscles_ru: ruMuscles(ex.secondaryMuscles),
     ...(Array.isArray(ru.instructions_ru) ? { instructions_ru: ru.instructions_ru } : {}),
     ...(ru.instructions_status ? { instructions_status: ru.instructions_status } : {}),
   });

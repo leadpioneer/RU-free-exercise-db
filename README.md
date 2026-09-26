@@ -29,7 +29,8 @@ https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/<пу�
 ## Формат записи
 
 Каждая запись `dist/exercises.ru.json` — это upstream-запись целиком плюс
-три русских поля:
+русские поля: перевод названия, алиасы, инструкции, статус и переводы
+всех классификационных перечислений (`*_ru`):
 
 ```json
 {
@@ -54,9 +55,22 @@ https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/<пу�
   "secondaryMuscles": ["triceps", "shoulders"],
   "instructions": ["..."],
   "category": "strength",
-  "images": ["Barbell_Bench_Press_-_Medium_Grip/0.jpg"]
+  "images": ["Barbell_Bench_Press_-_Medium_Grip/0.jpg"],
+
+  "level_ru": "средний",
+  "category_ru": "силовые",
+  "force_ru": "толкающее",
+  "mechanic_ru": "базовое",
+  "equipment_ru": "штанга",
+  "primaryMuscles_ru": ["грудные"],
+  "secondaryMuscles_ru": ["трицепс", "плечи"],
+  "instructions_ru": ["..."],
+  "instructions_status": "machine"
 }
 ```
+
+Словари перечислений: `scripts/lib/enums-ru.mjs` (force/level/mechanic/
+equipment/category/muscles). `null` в upstream остаётся `null`.
 
 ### Как искать
 
@@ -72,6 +86,8 @@ https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/<пу�
 
 ### Статус перевода
 
+Названия (`review_status`):
+
 | Статус | Значение |
 |---|---|
 | `machine_draft` | перевод создан глоссарий-движком, не проверен человеком |
@@ -79,8 +95,16 @@ https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/<пу�
 | `needs_review` | автоматика пометила неоднозначность (см. `notes`) |
 | `do_not_translate` | бренд/термин оставлен как есть |
 
-Сейчас: 874 `machine_draft`, 2 `needs_review`, 0 `reviewed`.
-Спорные термины (deadlift/row/curl/lunge/press и их варианты) разобраны в
+Инструкции (`instructions_status`):
+
+| Статус | Значение |
+|---|---|
+| `machine` | машинный перевод (Yandex Translate + правила пост-редакта) |
+| `reviewed` | вычитано человеком |
+
+Сейчас: названия — 874 `machine_draft`, 2 `needs_review`; инструкции —
+876/876 (45 вручную/по словарю, 831 `machine`). Спорные термины
+(deadlift/row/curl/lunge/press и их варианты) разобраны в
 [docs/GLOSSARY_RU.md](./docs/GLOSSARY_RU.md).
 
 ## Структура репозитория
@@ -90,8 +114,10 @@ exercises/                    # upstream: JSON + картинки (не прав
 i18n/ru/<id>.json             # русская локализация — сайдкар на упражнение
 i18n/ru/schema.ru.json        # JSON Schema русской записи
 dist/exercises.json           # upstream-сборка (генерируется)
-dist/exercises.ru.json        # RU-сборка: upstream + name_ru/aliases_ru
-scripts/lib/                  # глоссарий-движок перевода названий
+dist/exercises.ru.json        # RU-сборка: upstream + name_ru/aliases_ru/
+                              # instructions_ru/*_ru-перечисления
+scripts/lib/                  # глоссарий-движок перевода названий, словари
+                              # перечислений, правила пост-редакта MT
 scripts/*.mjs                 # draft / merge / validate
 docs/GLOSSARY_RU.md           # канонический глоссарий терминов
 docs/TRANSLATION_GUIDE_RU.md  # процесс перевода, ревью и поиска
